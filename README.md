@@ -386,19 +386,19 @@ The app includes comprehensive analytics tracking using Firebase Analytics to mo
 <div align="center">
 
 ### Home Screen
-<img src="screenshots/home.png" alt="Home Screen" width="250"/>
+<img src="https://github.com/user-attachments/assets/429766e0-dac6-4412-b49f-b62f35173dd8" alt="Home Screen" width="250"/>
 
 ### Car Listing
-<img src="screenshots/car_listing.png" alt="Car Listing" width="250"/>
+<img src="https://github.com/user-attachments/assets/c16e571f-b107-4088-8f6e-c8f2e01c59a5" alt="Car Listing" width="250"/>
 
 ### Car Details
-<img src="screenshots/car_details.png" alt="Car Details" width="250"/>
+<img src="https://github.com/user-attachments/assets/4b206de4-2e46-458b-9485-2deb0767f1a8" alt="Car Details" width="250"/>
 
 ### Booking Management
-<img src="screenshots/bookings.png" alt="Bookings" width="250"/>
+<img src="https://github.com/user-attachments/assets/20d7f77c-4309-4d7c-8705-d9a0c973aaea" alt="Bookings" width="250"/>
 
 ### Profile
-<img src="screenshots/profile.png" alt="Profile" width="250"/>
+<img src="https://github.com/user-attachments/assets/82f0b1db-ce97-4e61-b99c-39d5d59e9e24" alt="Profile" width="250"/>
 
 </div>
 
