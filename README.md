@@ -48,7 +48,7 @@ Get Aldaman Works on your mobile device:
 | Detail | Android | iOS |
 |--------|---------|-----|
 | **Version** | 1.0.10 | 1.0.10 |
-| **Size** | ~11 MB | ~37 MB |
+| **Size** | ~23 MB | ~37 MB |
 | **Language** | Arabic | English |
 
 </div>
