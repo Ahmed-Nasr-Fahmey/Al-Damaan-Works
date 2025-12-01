@@ -12,7 +12,7 @@
 [![Saudi Arabia](https://img.shields.io/badge/Country-🇸🇦_Saudi_Arabia-green.svg)]()
 [![Version](https://img.shields.io/badge/Version-1.0.10-orange.svg)]()
 
-[Features](#-features) • [Architecture](#-architecture) • [Download](#-download--installation) • [Structure](#-folder-structure) 
+[Features](#-features) • [Architecture](#-architecture) • [Download](#-download--installation) • [Structure](#-folder-structure) • [Screenshots](#-screenshots) 
 
 </div>
 
