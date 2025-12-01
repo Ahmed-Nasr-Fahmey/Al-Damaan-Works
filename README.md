@@ -20,7 +20,7 @@
 
 ## 📱 Project Overview
 
-**Aldaman Works** is a full-featured mobile application developed for the Saudi Arabian market, providing seamless car rental and purchase services. The app enables users to browse available vehicles, make reservations, purchase cars with flexible payment options (cash or financing), manage bookings, and interact with multiple branches across the Kingdom.
+**Aldaman Works** is a full-featured mobile application developed for the Saudi Arabian market, providing seamless car rental and purchase services. The app enables users to browse available vehicles, make reservations, purchase cars with flexible payment options (cash or financing), manage bookings, and interact with multiple branches across the Saudi Arabian.
 
 ### Key Highlights
 - 🇸🇦 **Saudi-focused**: Built specifically for the Saudi Arabian market with Arabic language support
