@@ -8,7 +8,7 @@
 [![Dart](https://img.shields.io/badge/Dart-3.6.1-blue.svg)](https://dart.dev/)
 [![License](https://img.shields.io/badge/License-Private-red.svg)]()
 [![Google Play](https://img.shields.io/badge/Google_Play-Download-blue.svg)](https://play.google.com/store/apps/details?id=com.aldaman_works.aldaman_works)
-[![App Store](https://img.shields.io/badge/App_Store-Download-black.svg)](https://apps.apple.com/app/aldaman-works/id[APP_ID])
+[![App Store](https://img.shields.io/badge/App_Store-Download-black.svg)]([https://apps.apple.com/app/aldaman-works/id[APP_ID]](https://apps.apple.com/sa/app/%D8%A3%D8%B9%D9%85%D8%A7%D9%84-%D8%A7%D9%84%D8%AF%D9%85%D8%B9%D8%A7%D9%86-%D9%84%D9%84%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7%D8%AA/id6749268138))
 [![Saudi Arabia](https://img.shields.io/badge/Country-🇸🇦_Saudi_Arabia-green.svg)]()
 [![Version](https://img.shields.io/badge/Version-1.0.10-orange.svg)]()
 
