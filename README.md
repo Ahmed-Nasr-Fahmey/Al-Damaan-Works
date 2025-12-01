@@ -7,8 +7,12 @@
 [![Flutter](https://img.shields.io/badge/Flutter-3.6.1-blue.svg)](https://flutter.dev/)
 [![Dart](https://img.shields.io/badge/Dart-3.6.1-blue.svg)](https://dart.dev/)
 [![License](https://img.shields.io/badge/License-Private-red.svg)]()
+[![Google Play](https://img.shields.io/badge/Google_Play-Download-blue.svg)](https://play.google.com/store/apps/details?id=com.aldaman_works.aldaman_works)
+[![App Store](https://img.shields.io/badge/App_Store-Download-black.svg)](https://apps.apple.com/app/aldaman-works/id[APP_ID])
+[![Saudi Arabia](https://img.shields.io/badge/Country-🇸🇦_Saudi_Arabia-green.svg)]()
+[![Version](https://img.shields.io/badge/Version-1.0.10-orange.svg)]()
 
-[Features](#-features) • [Architecture](#-architecture) • [Tech Stack](#-tech-stack) • [Getting Started](#-how-to-run-the-project) • [Structure](#-folder-structure)
+[Features](#-features) • [Architecture](#-architecture) • [Tech Stack](#-tech-stack) • [Download](#-download--installation) • [Getting Started](#-how-to-run-the-project) • [Structure](#-folder-structure) • [Links](#-links--contact)
 
 </div>
 
@@ -20,22 +24,44 @@
 
 ### Key Highlights
 - 🇸🇦 **Saudi-focused**: Built specifically for the Saudi Arabian market with Arabic language support
-- 🚀 **Production-ready**: Version 1.0.10+50 deployed and actively maintained
+- 🚀 **Production-ready**: Version 1.0.10+35 deployed and actively maintained
 - 🏗️ **Scalable Architecture**: Clean Architecture with feature-based modular design
 - 🔒 **Secure**: Secure storage, token-based authentication, and encrypted communication
 - 📱 **Cross-platform**: Supports both iOS and Android platforms
 
 ---
 
+## 📥 Download & Installation
+
+Get Aldaman Works on your mobile device:
+
+<div align="center">
+
+### 📱 Available on
+
+[![Google Play Store](https://img.shields.io/badge/Download_on_Google_Play-3DDC84?style=for-the-badge&logo=google-play&logoColor=white)](https://play.google.com/store/apps/details?id=com.aldaman_works.aldaman_works)
+[![App Store](https://img.shields.io/badge/Download_on_App_Store-0D96F6?style=for-the-badge&logo=app-store&logoColor=white)](https://apps.apple.com/sa/app/%D8%A3%D8%B9%D9%85%D8%A7%D9%84-%D8%A7%D9%84%D8%AF%D9%85%D8%B9%D8%A7%D9%86-%D9%84%D9%84%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7%D8%AA/id6749268138)
+
+
+### 📊 App Information
+
+| Detail | Android | iOS |
+|--------|---------|-----|
+| **Version** | 1.0.10 | 1.0.10 |
+| **Size** | ~11 MB | ~37 MB |
+| **Language** | Arabic | English |
+
+</div>
+
+---
+
 ## 🛠️ Tech Stack
 
 ### Core Framework
-- **Flutter** `3.6.1` - Cross-platform UI framework
-- **Dart** `^3.6.1` - Programming language
+- **Flutter** `3.38.3` - Cross-platform UI framework
 
 ### State Management
 - **flutter_bloc** `^9.1.0` - BLoC pattern implementation
-- **provider** `^6.1.5` - State management for dependency injection
 
 ### Networking & API
 - **dio** `^5.8.0+1` - HTTP client for API calls
@@ -54,6 +80,8 @@
 - **firebase_messaging** `^16.0.0` - Push notifications
 - **firebase_crashlytics** `^5.0.0` - Crash reporting
 - **flutter_local_notifications** `^19.4.0` - Local notifications
+- **firebase_analytics** `^11.0.0` - App analytics and user behavior tracking
+- **firebase_remote_config** `^5.0.0` - Remote configuration management
 
 ### UI & Design
 - **flutter_screenutil** `^5.9.3` - Responsive UI scaling
@@ -242,6 +270,13 @@ features/
 - Image caching for performance
 - App link protection
 
+### 📊 Analytics & Remote Configuration
+- **Firebase Analytics**: Comprehensive user behavior tracking
+- **Remote Config**: Dynamic feature flags and app configuration
+- Real-time analytics for car views, searches, bookings, and user engagement
+- A/B testing capabilities through remote configuration
+- Dynamic feature toggles without app updates
+
 ---
 
 ## 🧪 Testing
@@ -255,27 +290,6 @@ The project includes a comprehensive testing strategy to ensure code quality and
 - **Repository Tests**: Testing data layer implementations
 - **BLoC Tests**: Testing state management and business logic flows
 
-### Running Tests
-
-```bash
-# Run all tests
-flutter test
-
-# Run tests with coverage
-flutter test --coverage
-
-# Run specific test file
-flutter test test/widget_test.dart
-```
-
-### Test Coverage
-
-The project aims for high test coverage across all layers:
-- Domain layer: 90%+ coverage
-- Data layer: 85%+ coverage  
-- Presentation layer: 80%+ coverage
-
----
 
 ## 📁 Folder Structure
 
@@ -335,117 +349,35 @@ ios/                               # iOS-specific files
 web/                               # Web-specific files
 ```
 
----
 
-## 🚀 How to Run the Project
+## 📊 Firebase Analytics & Remote Config
 
-### Prerequisites
+### Analytics Implementation
 
-- **Flutter SDK**: Version 3.6.1 or higher
-- **Dart SDK**: Version 3.6.1 or higher
-- **Android Studio** / **VS Code** with Flutter extensions
-- **Xcode** (for iOS development, macOS only)
-- **Firebase Account**: For push notifications and crash reporting
+The app includes comprehensive analytics tracking using Firebase Analytics to monitor user behavior and app performance:
 
-### Setup Instructions
+#### Tracked Events
+- **App Events**: App opens, screen views, user engagement
+- **User Events**: Login, signup, profile updates
+- **Car Events**: Car views, searches, filters, favorites
+- **Booking Events**: Checkout starts, purchases, cancellations
+- **Navigation Events**: Screen transitions and user flow
+- **Error Events**: App errors and crashes
+- **Feature Usage**: Custom feature interactions
 
-1. **Clone the repository**
-   ```bash
-   git clone [repository-url]
-   cd car_app
-   ```
+### Best Practices
 
-2. **Install dependencies**
-   ```bash
-   flutter pub get
-   ```
+#### Analytics
+- Track meaningful user actions, not every button tap
+- Use consistent naming conventions for events and parameters
+- Set user properties for better segmentation
+- Monitor analytics data regularly to improve user experience
 
-3. **Firebase Configuration**
-   - Download `google-services.json` for Android and place it in `android/app/`
-   - Download `GoogleService-Info.plist` for iOS and place it in `ios/Runner/`
-   - Ensure Firebase projects are configured in Firebase Console
-
-4. **Configure API Endpoints**
-   - Update API base URLs in `lib/core/api/end_points.dart` if needed
-   - Ensure backend services are accessible
-
-5. **Generate Localization Files**
-   ```bash
-   flutter gen-l10n
-   ```
-
-6. **Run the app**
-   ```bash
-   # For Android
-   flutter run
-
-   # For iOS (macOS only)
-   flutter run -d ios
-
-   # For a specific device
-   flutter devices
-   flutter run -d [device-id]
-   ```
-
-### Build Instructions
-
-#### Android APK
-```bash
-flutter build apk --release
-```
-
-#### Android App Bundle (for Play Store)
-```bash
-flutter build appbundle --release
-```
-
-#### iOS (requires macOS and Xcode)
-```bash
-flutter build ios --release
-```
-
-### Environment Setup
-
-The app uses different API endpoints for different environments. Configure them in:
-- `lib/core/api/end_points.dart`
-
-### Key Configuration Files
-
-- `pubspec.yaml` - Dependencies and assets
-- `android/app/build.gradle` - Android build configuration
-- `ios/Runner.xcodeproj` - iOS project configuration
-- `firebase.json` - Firebase configuration
-- `lib/firebase_options.dart` - Firebase initialization options
-
----
-
-## 🔮 Future Improvements
-
-### Planned Features
-- [ ] **Payment Integration**: Direct in-app payment processing
-- [ ] **Real-time Chat**: Customer support chat functionality
-- [ ] **Video Tours**: 360° car view and video tours
-- [ ] **Advanced Analytics**: User behavior tracking and analytics
-- [ ] **Social Sharing**: Enhanced sharing with social media integration
-- [ ] **Rating System**: User reviews and ratings for cars and services
-- [ ] **Loyalty Program**: Rewards and loyalty points system
-- [ ] **Multi-language**: Additional language support (English fully integrated)
-
-### Technical Improvements
-- [ ] **Performance Optimization**: Further code splitting and lazy loading
-- [ ] **Caching Strategy**: Enhanced offline-first approach
-- [ ] **CI/CD Pipeline**: Automated testing and deployment
-- [ ] **Code Documentation**: Comprehensive API documentation
-- [ ] **Error Tracking**: Enhanced error reporting and monitoring
-- [ ] **Accessibility**: Improved accessibility features (a11y)
-- [ ] **Dark Mode**: Theme switching support
-- [ ] **Unit Test Coverage**: Increase test coverage to 90%+
-
-### UX/UI Enhancements
-- [ ] **Onboarding Improvements**: Interactive onboarding tutorial
-- [ ] **Animation Polish**: Enhanced micro-interactions
-- [ ] **Loading States**: More sophisticated loading indicators
-- [ ] **Empty States**: Improved empty state designs
+#### Remote Config
+- Always provide sensible default values
+- Use feature flags for gradual rollouts
+- Test configuration changes in development first
+- Monitor impact of configuration changes on user behavior
 
 ---
 
@@ -470,36 +402,23 @@ The app uses different API endpoints for different environments. Configure them 
 
 </div>
 
-> **Note**: Add actual screenshots to the `screenshots/` directory to display them here.
 
 ---
 
-## 🔗 Social Links
+## 👨‍💻 Developer & Contact
 
 <div align="center">
 
-### Connect With Us
+### **Ahmed Nasr**
+**Flutter Developer & Mobile App Specialist**
 
-[![Website](https://img.shields.io/badge/Website-aldamanworks.com-blue)](https://aldamanworks.com)
-[![Email](https://img.shields.io/badge/Email-Contact-orange)](mailto:info@aldamanworks.com)
+📧 **Email**: ahmed.nasr.fahmey@gmail.com  
+🌐 **LinkedIn**: https://www.linkedin.com/in/ahmed-nasr-fahmey/
 
-### Development
-
-**Company**: Aldaman Works  
-**Country**: 🇸🇦 Saudi Arabia  
-**Platform**: Mobile (iOS & Android)
 
 ---
 
-### Contributors
-
-We welcome contributions! Please feel free to submit a Pull Request.
-
----
-
-<div align="center">
-
-**Made with ❤️ in Saudi Arabia**
+</div>
 
 [⬆ Back to Top](#-aldaman-works---car-rental--purchase-app)
 
